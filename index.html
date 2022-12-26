@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>知識大亂鬥</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="./c1.js"></script>
+    <style type="text/css">
+        #coin{
+          font-size: 30px;
+              font-weight: bold;
+        }
+        #play {
+        font-size: 60px;
+              font-weight: bold;
+        }
+        #choose{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        #rule{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        h1{
+            font-size: 100px;
+            text-align:center;
+            color:rgb(69, 158, 241);
+
+        }
+        body{
+            background:url("pic.jpg"),
+                       url("pic2.jpg") ;
+            background-repeat: no-repeat;
+            background-position:left ,right ;
+        }
+        .inc{
+        color: #000;
+        font-size: 150%;
+        font-family: 'Noto Sans TC', sans-serif;
+        }
+        #way{
+            text-align:center;
+            font-weight: bold;
+        }
+        button{
+          font-family: 'Noto Sans TC', sans-serif;
+          font-size: 350%;
+          border-radius: 20px;
+          cursor: pointer;
+        }
+        button.rule{
+          font-family: 'Noto Sans TC', sans-serif;
+          font-size: 150%;
+          font-weight: bold;
+        }
+    </style>
+</head>
+<script>
+
+</script>
+<body>
+  <div id = "coin"></div>
+    <h1>知識大亂鬥</h1>
+    
+    <div style = "text-align:center;"><p><button type="button" onclick="location.href='start.html';"  class = "start"style="background-color:rgb(182, 221, 243);;">開始遊戲</button></p></div>
+    <br></br>
+    
+    <div class = "inc col-12" style="background-color:rgb(255, 255, 255);">
+        <ul>
+          <p id = "way"style = "text-align:center;"><button style = "font-size: 50px;" onclick="location.href = 'rule.html';">遊玩方法</button></p>
+          <p style = "text-align: center;"><a href = "report.pptx">說明文件</a></p>
+          <li>
+            點選開始遊戲 -> 選擇關卡 -> 回答問題
+          </li>
+          <li>
+            點選說明 ->查看遊戲規則
+          </li>
+          <li>
+            點選返回 -> 返回上頁
+          </li>
+        </ul>
+      </div>
+</body>
+</html> 
