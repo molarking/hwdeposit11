@@ -325,7 +325,7 @@ var questions = [
   { content: "孔雀的英文是", a: "pineapple", b: "peekaboo", c: "peanut", d: "peacock", answer: "d" },
   { content: "動植物學名是用哪一種語言訂定的", a: "德語", b: "英語", c: "法語", d: "拉丁語", answer: "d" },
   { content: "日本與台灣時差幾個小時", a: "0小時", b: "2小時", c: "1小時", d: "3小時", answer: "c" },
-  { content: "下列何者非晚清四大遣責小說", a: "二十年目睹隻怪狀", b: "儒林外史", c: "孽海花", d: "官場現形記", answer: "b" },
+  { content: "下列何者非晚清四大遣責小說", a: "二十年目睹之怪狀", b: "儒林外史", c: "孽海花", d: "官場現形記", answer: "b" },
   { content: "目前加入台藍最大咖籃球明星為何", a: "Godzilla", b: "Dwight Howard", c: "Stephen Curry", d: "Lady Gaga", answer: "b" },
   { content: "給邊長求面積使用公式為何", a: "柯西不等式", b: "畢氏定理", c: "海龍公式", d: "底*高/2", answer: "c" },
   { content: " 921地震是因為哪個斷層", a: "車籠埔斷層", b: "梅山斷層", c: "獅潭斷層", d: "竹東斷層", answer: "a" },
